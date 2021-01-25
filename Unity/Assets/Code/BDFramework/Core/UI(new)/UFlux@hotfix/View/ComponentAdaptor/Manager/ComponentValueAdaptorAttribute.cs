@@ -1,7 +1,7 @@
 ﻿using System;
 using BDFramework.Mgr;
 using ILRuntime.CLR.TypeSystem;
-using ILRuntime.Mono.Cecil;
+using Mono.Cecil;
 using UnityEngine;
 
 namespace BDFramework.UFlux
@@ -13,16 +13,16 @@ namespace BDFramework.UFlux
         public ComponentAdaptorProcessAttribute(Type type) : base(type.GetHashCode())
         {
             //这里故意让破坏优化 ilrbug
-            var ot = (object) type;
+            var ot = (object)type;
             if (ot is TypeReference)
             {
-                var name = ((TypeReference) ot).FullName;
-                if(!ILRuntimeHelper.UIComponentTypes.TryGetValue(name, out Type))
+                var name = ((TypeReference)ot).FullName;
+                if (!ILRuntimeHelper.UIComponentTypes.TryGetValue(name, out Type))
                 {
                     IType ilrtype = null;
                     if (ILRuntimeHelper.AppDomain.LoadedTypes.TryGetValue(name, out ilrtype))
                     {
-                        this.Type =  ilrtype.ReflectionType;
+                        this.Type = ilrtype.ReflectionType;
                     }
                 }
             }
@@ -30,7 +30,7 @@ namespace BDFramework.UFlux
             {
                 this.Type = type;
             }
-            
+
         }
     }
 }

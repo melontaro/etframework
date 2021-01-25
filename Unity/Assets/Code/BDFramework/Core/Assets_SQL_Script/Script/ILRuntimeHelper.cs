@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using ILRuntime.Mono.Cecil.Pdb;
-using ILRuntime.Reflection;
 using ILRuntime.Runtime.Generated;
 using LitJson;
+using Mono.Cecil.Pdb;
 using UnityEngine;
 using UnityEngine.Networking;
 using AppDomain = ILRuntime.Runtime.Enviorment.AppDomain;
@@ -160,12 +159,12 @@ namespace BDFramework
             object instance;
             if (value_type is ILRuntime.Reflection.ILRuntimeType)
             {
-                instance = ((ILRuntime.Reflection.ILRuntimeType) value_type).ILType.Instantiate();
+                instance = ((ILRuntime.Reflection.ILRuntimeType)value_type).ILType.Instantiate();
             }
             else
             {
                 if (value_type is ILRuntime.Reflection.ILRuntimeWrapperType)
-                    value_type = ((ILRuntime.Reflection.ILRuntimeWrapperType) value_type).RealType;
+                    value_type = ((ILRuntime.Reflection.ILRuntimeWrapperType)value_type).RealType;
                 instance = Activator.CreateInstance(value_type);
             }
 
