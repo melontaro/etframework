@@ -95,6 +95,16 @@
     <Compile Include="Assets\Code\BDFramework\Editor\TestRunner\TestRunnerEditor.cs" />
     <Compile Include="Assets\Code\BDFramework\Editor\Tools\EditorGUIHelper.cs" />
     <Compile Include="Assets\Code\BDFramework\Editor\UIComponent\OverrideComponent\OverrideUIComponent.cs" />
+    <Compile Include="Assets\MyGame\Editor\TouchAfflatus\AndroidDebug\LogCatWindow.cs" />
+    <Compile Include="Assets\MyGame\Editor\TouchAfflatus\CopyPath\CopyPathScript.cs" />
+    <Compile Include="Assets\MyGame\Editor\TouchAfflatus\DietChuggLLC\2DSpriteline\SpriteToPrefab\Editor\SpriteToPrefab_MenuItem.cs" />
+    <Compile Include="Assets\MyGame\Editor\TouchAfflatus\GeneralWindowCode\EditorPrefabs.cs" />
+    <Compile Include="Assets\MyGame\Editor\TouchAfflatus\GeneralWindowCode\EnumLabelAttribute.cs" />
+    <Compile Include="Assets\MyGame\Editor\TouchAfflatus\GeneralWindowCode\GeneralWindowCode.cs" />
+    <Compile Include="Assets\MyGame\Editor\TouchAfflatus\GeneralWindowCode\GeneralWindowHelper.cs" />
+    <Compile Include="Assets\MyGame\Editor\TouchAfflatus\GeneralWindowCode\OthersWindow.cs" />
+    <Compile Include="Assets\MyGame\Editor\TouchAfflatus\GeneralWindowCode\TATools.cs" />
+    <Compile Include="Assets\MyGame\Editor\TouchAfflatus\StartProgress\StartProgress.cs" />
     <None Include="Assets\3rdPlugins\Dotween\DemiLib\Core\Editor\DemiEditor.xml" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
