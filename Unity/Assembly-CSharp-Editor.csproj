@@ -95,6 +95,10 @@
     <Compile Include="Assets\Code\BDFramework\Editor\TestRunner\TestRunnerEditor.cs" />
     <Compile Include="Assets\Code\BDFramework\Editor\Tools\EditorGUIHelper.cs" />
     <Compile Include="Assets\Code\BDFramework\Editor\UIComponent\OverrideComponent\OverrideUIComponent.cs" />
+    <Compile Include="Assets\Editor\ExcelExporterEditor\ExcelExporterEditor.cs" />
+    <Compile Include="Assets\Editor\GlobalConfigEditor\GlobalConfigEditor.cs" />
+    <Compile Include="Assets\Editor\Proto2CsEditor\InnerProto2CS.cs" />
+    <Compile Include="Assets\Editor\Proto2CsEditor\Proto2CSEditor.cs" />
     <Compile Include="Assets\MyGame\Editor\TouchAfflatus\AndroidDebug\LogCatWindow.cs" />
     <Compile Include="Assets\MyGame\Editor\TouchAfflatus\CopyPath\CopyPathScript.cs" />
     <Compile Include="Assets\MyGame\Editor\TouchAfflatus\DietChuggLLC\2DSpriteline\SpriteToPrefab\Editor\SpriteToPrefab_MenuItem.cs" />

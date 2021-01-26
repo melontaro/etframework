@@ -20,3 +20,4 @@ D:\WorkspaceGit\Unity\etframework\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.Asse
 D:\WorkspaceGit\Unity\etframework\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.csproj.CoreCompileInputs.cache
 D:\WorkspaceGit\Unity\etframework\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.dll
 D:\WorkspaceGit\Unity\etframework\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.pdb
+D:\WorkspaceGit\Unity\etframework\Server\ThirdParty\KcpLib\obj\Debug\KcpLib.csprojAssemblyReference.cache

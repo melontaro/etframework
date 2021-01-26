@@ -67,6 +67,8 @@ namespace ILRuntime.Runtime.Generated
             System_Collections_IEnumerable_Binding.Register(app);
             Google_Protobuf_ByteString_Binding.Register(app);
             ETModel_ByteHelper_Binding.Register(app);
+            System_Exception_Binding.Register(app);
+            System_Collections_IDictionary_Binding.Register(app);
             ETModel_Log_Binding.Register(app);
             ETModel_IdGenerater_Binding.Register(app);
             UnityEngine_GameObject_Binding.Register(app);
@@ -77,7 +79,6 @@ namespace ILRuntime.Runtime.Generated
             System_Collections_Generic_Dictionary_2_Type_ILTypeInstance_Binding_ValueCollection_Binding.Register(app);
             System_Collections_Generic_Dictionary_2_Type_ILTypeInstance_Binding_ValueCollection_Binding_Enumerator_Binding.Register(app);
             System_Collections_Generic_HashSet_1_ILTypeInstance_Binding.Register(app);
-            System_Exception_Binding.Register(app);
             System_Collections_Generic_HashSet_1_ILTypeInstance_Binding_Enumerator_Binding.Register(app);
             System_Collections_Generic_List_1_Object_Binding.Register(app);
             System_Collections_Generic_Dictionary_2_String_List_1_ILTypeInstance_Binding.Register(app);
